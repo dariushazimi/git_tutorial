@@ -41,3 +41,5 @@ Look at your git config file
 	git config --global --list
 	
 git add -u # to update git after changes such as move a file to a new file name
+
+git add -A # make all modification possible on to current working directory and add it to git index
