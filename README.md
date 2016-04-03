@@ -42,3 +42,7 @@ Look at your git config file
 	git add -u # to update git after changes such as move a file to a new file name
 
 	git add -A # make all modification possible on to current working directory and add it to git index
+	
+#Ignore files
+Create a .gitignore file
+Include *.log and or any other pattern you want to exclude
