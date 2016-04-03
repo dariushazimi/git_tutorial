@@ -68,8 +68,11 @@ or use the difftool command
 	
 #Branching
 Juat a time line of a commit. 
+<<<<<<< HEAD
 <<<<<<< Local Changes
 <<<<<<< Local Changes
+=======
+>>>>>>> updates
 keep in mind HEAD points to the last commit of the branch.
 
 #Which Branch
@@ -81,6 +84,7 @@ branch you can do the following by createing a new branch.
 Lets create a new branch called updates
 	git checkout -b updates
 	
+<<<<<<< HEAD
 To see the changes and differences between updates and master branch run the following:
 
 	git diff updates master
@@ -95,3 +99,7 @@ We need to change to master
 	-merge changes from updates branch to master
 	
 	git merge updates
+=======
+To see the changes and differences between updates and master branch run the following: 
+	git diff updates master
+>>>>>>> updates
