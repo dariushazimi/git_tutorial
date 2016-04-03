@@ -103,3 +103,10 @@ We need to change to master
 To see the changes and differences between updates and master branch run the following: 
 	git diff updates master
 >>>>>>> updates
+# Fastforward
+What is git fastforwad? When changes are so simple, git will do a fast forward, meaning we will
+pretend that we never moved away from the master.
+Once the changes are done we can delete the branch 
+
+	git branch -d updates
+	The above command does not remove the history, it just removes the label.
