@@ -68,3 +68,14 @@ or use the difftool command
 	
 #Branching
 Juat a time line of a commit. 
+keep in mind HEAD points to the last commit of the branch.
+
+#Which Branch
+	git branch
+
+#New Branch
+While working on changes if you decide that these changes should be really part of a new 
+branch you can do the following by createing a new branch.
+Lets create a new branch called updates
+	git checkout -b updates
+	
