@@ -46,3 +46,22 @@ Look at your git config file
 #Ignore files
 Create a .gitignore file
 Include *.log and or any other pattern you want to exclude
+
+#Comparing differnt commits
+as an example we run the git hist and we see something like this:
+* 56e2b25 (HEAD -> master) added gitignore
+* 25cabf1 Ignoring files with git
+* d9772b1 (origin/master, origin/HEAD) Cleaned up Readme
+* 1d2d466 Nothing added, cleaned
+* 889cf06 Removed git_command line file
+* ed59c80 deleting demo file
+* 89dd901 Git command line tips
+* 8cdba8e Added new commands for history and alias
+* aff70a2 Added basic commands to get started with Git
+* b3044b7 Initial commit
+
+to compare one of the commits with the head:
+	git diff 8cdba8e HEAD
+	
+or use the difftool command
+	git difftool 8cdba8e HEAD
