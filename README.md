@@ -84,7 +84,7 @@ branch you can do the following by createing a new branch.
 Lets create a new branch called updates
 	git checkout -b updates
 	
-<<<<<<< HEAD
+
 To see the changes and differences between updates and master branch run the following:
 
 	git diff updates master
@@ -99,10 +99,10 @@ We need to change to master
 	-merge changes from updates branch to master
 	
 	git merge updates
-=======
+
 To see the changes and differences between updates and master branch run the following: 
 	git diff updates master
->>>>>>> updates
+
 # Fastforward
 What is git fastforwad? When changes are so simple, git will do a fast forward, meaning we will
 pretend that we never moved away from the master.
