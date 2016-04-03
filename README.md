@@ -79,3 +79,5 @@ branch you can do the following by createing a new branch.
 Lets create a new branch called updates
 	git checkout -b updates
 	
+To see the changes and differences between updates and master branch run the following: 
+	git diff updates master
