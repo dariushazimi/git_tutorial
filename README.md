@@ -39,3 +39,5 @@ git hist -- filename
 Look at your git config file
 
 	git config --global --list
+	
+git add -u # to update git after changes such as move a file to a new file name
