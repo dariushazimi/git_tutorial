@@ -65,3 +65,6 @@ to compare one of the commits with the head:
 	
 or use the difftool command
 	git difftool 8cdba8e HEAD
+	
+#Branching
+Juat a time line of a commit. 
