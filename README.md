@@ -110,3 +110,6 @@ Once the changes are done we can delete the branch
 
 	git branch -d updates
 	The above command does not remove the history, it just removes the label.
+	
+##Git problem resolution
+I hope this is not a big issue
