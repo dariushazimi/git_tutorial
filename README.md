@@ -75,10 +75,10 @@ Juat a time line of a commit.
 >>>>>>> updates
 keep in mind HEAD points to the last commit of the branch.
 
-#Which Branch
+##Which Branch
 	git branch
 
-#New Branch
+##New Branch
 While working on changes if you decide that these changes should be really part of a new 
 branch you can do the following by createing a new branch.
 Lets create a new branch called updates
@@ -104,6 +104,7 @@ To see the changes and differences between updates and master branch run the fol
 	git diff updates master
 
 # Fastforward
+##Fastforward
 What is git fastforwad? When changes are so simple, git will do a fast forward, meaning we will
 pretend that we never moved away from the master.
 Once the changes are done we can delete the branch 
@@ -111,5 +112,4 @@ Once the changes are done we can delete the branch
 	git branch -d updates
 	The above command does not remove the history, it just removes the label.
 	
-##Git problem resolution
-I hope this is not a big issue
+##Conflict resolution - 
