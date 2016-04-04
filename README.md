@@ -120,7 +120,7 @@ Once the changes are done we can delete the branch
 # Git Tags
 Marking major milestones
 
-Set a tabel or tag
+Set a label or tag
 	git tag mytag
 	git tag -d mytag
 
@@ -128,4 +128,21 @@ Set a tabel or tag
 	git tag —list
 
 	git show v1.0
+	
+#Git Stashing - Save temporary changes
+
+	git stash 
+Lets say we are working on something and realize that we should be doing that right now.
+We should have been in another branch or work on something else. We can use git stash
+git stash list
+
+next 
+	
+	git commit -am “notes”
+Now to apply our stash
+	
+	git stash pop # will apply the changes to or orginal file prior to the stash
+	git stash list # will show that there is nothing in our stash
+	
+
 
