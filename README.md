@@ -5,6 +5,7 @@ Info on Git from commandline
 	git show
 	git status
 
+	git clone https://github.com/dariushazimi/git_tutorial.git anyName_OR_let it blank
 	git remote -v # list of remote repos
 	git remote add origin https://github.com/dariushazimi/git_tutorial.git
 
