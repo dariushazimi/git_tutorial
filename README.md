@@ -116,3 +116,16 @@ Once the changes are done we can delete the branch
 	http://www.gitguys.com/topics/merging-with-a-gui/
 	http://www.gitguys.com/topics/
 	
+	
+# Git Tags
+Marking major milestones
+
+Set a tabel or tag
+	git tag mytag
+	git tag -d mytag
+
+	git tag -a v1.0 -m “Release  1.0”
+	git tag —list
+
+	git show v1.0
+
