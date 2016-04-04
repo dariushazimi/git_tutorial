@@ -145,4 +145,9 @@ Now to apply our stash
 	git stash list # will show that there is nothing in our stash
 	
 
+#git reset, git reflog
 
+
+	git reset number —soft (the least distractive of all)
+	git reset number --hard
+	git reflog
