@@ -68,11 +68,7 @@ or use the difftool command
 	
 #Branching
 Juat a time line of a commit. 
-<<<<<<< HEAD
-<<<<<<< Local Changes
-<<<<<<< Local Changes
-=======
->>>>>>> updates
+
 keep in mind HEAD points to the last commit of the branch.
 
 ##Which Branch
@@ -112,4 +108,11 @@ Once the changes are done we can delete the branch
 	git branch -d updates
 	The above command does not remove the history, it just removes the label.
 	
-##Conflict resolution - 
+##Conflict resolution
+	git branch -a # to see our branches
+	
+	
+#Links
+	http://www.gitguys.com/topics/merging-with-a-gui/
+	http://www.gitguys.com/topics/
+	
