@@ -5,6 +5,13 @@ Info on Git from commandline
 	git show
 	git status
 
+	git remote -v # list of remote repos
+	git remote add origin https://github.com/dariushazimi/git_tutorial.git
+
+Lets push everything up to the remote repo
+	git push -u origin master —tags #-u updates, —tags:pushes all the tags to the remote repo
+
+
 #Revert changes from staging to working area
 
 	git reset HEAD README.md
@@ -99,7 +106,6 @@ We need to change to master
 To see the changes and differences between updates and master branch run the following: 
 	git diff updates master
 
-# Fastforward
 ##Fastforward
 What is git fastforwad? When changes are so simple, git will do a fast forward, meaning we will
 pretend that we never moved away from the master.
