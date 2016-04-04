@@ -151,3 +151,26 @@ Now to apply our stash
 	git reset number —soft (the least distractive of all)
 	git reset number --hard
 	git reflog
+
+#p4merge mergtool, diff.tool
+
+To setup p4merge on mac
+
+	git config —global diff.tool p4merge
+to set the path
+
+	git config —global difftool.p4merge.path /Applications/p4merge.app/Contents/MacOS
+disable the prompt so that you are not constantly prompted
+
+	git config —global difftool.prompt false
+
+Lets set up the merge tool as well.
+	
+	git config —global merge.tool p4merge
+	git config —global mergetool.p4merge.path /Applications/p4merge.app/Contents/MacOS
+
+to list our config
+	
+	git config —global —list
+	git config —global -e # to load it in our default text editor
+
