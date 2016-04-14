@@ -136,13 +136,13 @@ https://github.com/fabianperez/ocean-dark-iterm
 
 To print the name of your currently checked out branch in your prompt, include this line as part of your PS1:
 
-'git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/''
+    git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 
 #### Extras
 
 A few people also asked about @patrickmckenna's Terminal.app theme. He uses ocean-terminal. His PS1 (prompt) is
 
-'export PS1="\[\$(tput bold)\]\[\$(tput setaf 6)\]\w\[\$(tput setaf 3)\]\$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/')\[\$(tput setaf 6)\] > \[\$(tput sgr0)\]"'
+    export PS1="\[\$(tput bold)\]\[\$(tput setaf 6)\]\w\[\$(tput setaf 3)\]\$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/')\[\$(tput setaf 6)\] > \[\$(tput sgr0)\]"
 
 
 ### Learn markdown
