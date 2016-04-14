@@ -120,18 +120,17 @@ Once the changes are done we can delete the branch
 
 
 ## Links
-[http://www.gitguys.com/topics/merging-with-a-gui/]
-[https://git-scm.com/docs/pretty-formats]
-[http://www.emoji-cheat-sheet.com]
-
- [http://www.gitguys.com/topics/]
+* http://www.gitguys.com/topics/merging-with-a-gui/
+* https://git-scm.com/docs/pretty-formats
+* http://www.emoji-cheat-sheet.com
+* http://www.gitguys.com/topics/
 
 ### books
 
- [https://git-scm.com/book/en/v2]
+ https://git-scm.com/book/en/v2
 ### terminal
-[https://github.com/mdo/ocean-terminal]
-[https://github.com/fabianperez/ocean-dark-iterm]
+https://github.com/mdo/ocean-terminal
+https://github.com/fabianperez/ocean-dark-iterm
 
 ### Useful Bits
 
