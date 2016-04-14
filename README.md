@@ -120,15 +120,30 @@ Once the changes are done we can delete the branch
 
 
 ## Links
- <http://www.gitguys.com/topics/merging-with-a-gui/>
- <http://www.emoji-cheat-sheet.com>
- <https://git-scm.com/docs/pretty-formats>
- <http://www.gitguys.com/topics/>
- 
+[http://www.gitguys.com/topics/merging-with-a-gui/]
+[https://git-scm.com/docs/pretty-formats]
+[http://www.emoji-cheat-sheet.com]
+
+ [http://www.gitguys.com/topics/]
+
 ### books
 
- <https://git-scm.com/book/en/v2>
+ [https://git-scm.com/book/en/v2]
+### terminal
+[https://github.com/mdo/ocean-terminal]
+[https://github.com/fabianperez/ocean-dark-iterm]
 
+### Useful Bits
+
+To print the name of your currently checked out branch in your prompt, include this line as part of your PS1:
+
+'git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/''
+
+#### Extras
+
+A few people also asked about @patrickmckenna's Terminal.app theme. He uses ocean-terminal. His PS1 (prompt) is
+
+'export PS1="\[\$(tput bold)\]\[\$(tput setaf 6)\]\w\[\$(tput setaf 3)\]\$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/')\[\$(tput setaf 6)\] > \[\$(tput sgr0)\]"'
 
 
 ### Learn markdown
