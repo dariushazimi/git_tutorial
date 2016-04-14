@@ -121,7 +121,9 @@ Once the changes are done we can delete the branch
 
 ## Links
  <http://www.gitguys.com/topics/merging-with-a-gui/>
+ <http://www.emoji-cheat-sheet.com>
  <http://www.gitguys.com/topics/>
+
 ### Learn markdown
  <http://commonmark.org/>
 
