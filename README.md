@@ -122,7 +122,14 @@ Once the changes are done we can delete the branch
 ## Links
  <http://www.gitguys.com/topics/merging-with-a-gui/>
  <http://www.emoji-cheat-sheet.com>
+ <https://git-scm.com/docs/pretty-formats>
  <http://www.gitguys.com/topics/>
+ 
+### books
+
+ <https://git-scm.com/book/en/v2>
+
+
 
 ### Learn markdown
  <http://commonmark.org/>
