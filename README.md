@@ -120,10 +120,10 @@ Once the changes are done we can delete the branch
 
 
 ## Links
-	<http://www.gitguys.com/topics/merging-with-a-gui/>
-	<http://www.gitguys.com/topics/>
+ <http://www.gitguys.com/topics/merging-with-a-gui/>
+ <http://www.gitguys.com/topics/>
 ### Learn markdown
-<http://commonmark.org/>
+ <http://commonmark.org/>
 
 # Git Tags
 Marking major milestones
