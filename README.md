@@ -124,6 +124,10 @@ Once the changes are done we can delete the branch
 * https://git-scm.com/docs/pretty-formats
 * http://www.emoji-cheat-sheet.com
 * http://www.gitguys.com/topics/
+* https://training.github.com/kit/courses/github-for-developers.html
+* https://github.com/githubteacher
+* https://gitter.im/
+https://gist.github.com/
 
 ### books
 
