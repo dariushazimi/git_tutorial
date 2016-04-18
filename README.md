@@ -196,7 +196,8 @@ to set the path
 
 	git config —global difftool.p4merge.path /Applications/p4merge.app/Contents/MacOS
 disable the prompt so that you are not constantly prompted
-
+da***********@s****.***
+dariushazimi
 	git config —global difftool.prompt false
 
 Lets set up the merge tool as well.
@@ -208,3 +209,9 @@ to list our config
 
 	git config —global —list
 	git config —global -e # to load it in our default text editor
+
+## git commands
+
+	git log --pretty=oneline
+	git log 544fa..583fa^ # to go back one commit from that point and view the history
+	git log 544fa..583fa~3 # to go back 3 commit from that point and view the history
