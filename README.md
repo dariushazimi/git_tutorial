@@ -2,7 +2,7 @@
 Info on Git from commandline
 
 	git log
-	git show
+	git show # see the last commit. Starts of with the hash and a delta 
 	git status
 
 	git clone https://github.com/dariushazimi/git_tutorial.git anyName_OR_let it blank
@@ -216,6 +216,6 @@ to list our config
 	git log 544fa..583fa^ # to go back one commit from that point and view the history
 	git log 544fa..583fa~3 # to go back 3 commit from that point and view the history
 
-### GO from 3 head ago to the current head. Think about the navigation and direction you want to go.
+GO from 3 head ago to the current head. Think about the navigation and direction you want to go.
 
 	git log HEAD^^^..HEAD
