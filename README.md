@@ -215,3 +215,7 @@ to list our config
 	git log --pretty=oneline
 	git log 544fa..583fa^ # to go back one commit from that point and view the history
 	git log 544fa..583fa~3 # to go back 3 commit from that point and view the history
+
+### GO from 3 head ago to the current head. Think about the navigation and direction you want to go.
+
+	git log HEAD^^^..HEAD
