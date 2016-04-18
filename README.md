@@ -221,3 +221,7 @@ GO from 3 head ago to the current head. Think about the navigation and direction
 	git log HEAD^^^..HEAD
 	git log HEAD^^^..HEAD -p # view all the changes file by file from 3 ago to the current point.
 	git log HEAD^^^^..HEAD^^ -p # view all the changes file by file from 4 ago to 2 ago.
+	git log HEAD~6..HEAD~4 -p # view all the changes file by file from 6 ago to 4 ago.
+
+Commit and add in one step
+	git commit -a -m "xxxxx"
